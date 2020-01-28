@@ -1,10 +1,10 @@
 # Test Excersise DevOps
 
 #### Spec
-Usign k8s
-Prepare Kafka cluster with possibility for external access.
-Prepare Kubernetes deployment that listen to kafka topic.
-Prepare Kubernetes job that produce N messages of random strings to kafka topic. User should be able to use value file to override number of messages. Should be 5 by default.
+- Usign k8s
+- Prepare Kafka cluster with possibility for external access.
+- Prepare Kubernetes deployment that listen to kafka topic.
+- Prepare Kubernetes job that produce N messages of random strings to kafka topic. User should be able to use value file to override number of messages. Should be 5 by default.
 
 #### Expected results
 Git repo that contains:
